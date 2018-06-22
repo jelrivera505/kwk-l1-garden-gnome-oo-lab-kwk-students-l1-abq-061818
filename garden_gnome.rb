@@ -44,8 +44,12 @@ class GardenGnome
   end 
   
   def introduce_self
-    return "Hello humans, my name is Frankie the Frightening, I am 324 years old, and you'll rue the day you crossed me!"
+    puts "Hello humans, my name is #{@name}, I am #{@age} years old, and you'll rue the day you crossed me!"
   end 
   
 end 
 
+gnome1= GardenGnome.new
+puts gnome1.name= "Walter the Worst"
+puts gnome1.age= 3781
+puts gnome1.introduce_self
